@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+}
+.container {
+  border-radius: 5px 5px 0px 0px;
+  margin-top: 24px;
+  margin-left: 13px;
+  margin-right: 12px;
+  -webkit-box-shadow: 4px 2px 11px 2px rgba(50, 50, 50, 1);
+  -moz-box-shadow: 4px 2px 11px 2px rgba(50, 50, 50, 1);
+  box-shadow: 4px 2px 11px 2px rgba(50, 50, 50, 1);
+}
+
+.post-image {
+  width: 100%;
+}
+
+.post-detail-header {
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.post-detail-profile {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  height: 120px;
+  width: 400px;
+  display: flex;
+  align-content: center;
+}
+
+.post-description {
+  padding: 0px 30px;
+  color: #666666;
+}
+
+.post-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+}
+
+.post-content {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+}
+
+.post-button {
+  color: #5a90bc;
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  width: 130px;
+  height: 30px;
+  margin-bottom: 45px;
+}
+
+.post-comments-box {
+  background-color: #ffedda4c;
+  margin-top: 45px;
+  padding-top: 30px;
+}
+
+.commentary-counter {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  margin: 0 4em;
+  color: #604731;
+}
+
+.commentary-reply {
+  padding-left: 6em;
+}
+
+.post-author-input {
+  margin-bottom: 37px;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.input-box {
+  margin: 2em 1em;
+  border: none;
+  border-bottom: 1px solid #666666;
+  outline: none;
+  font-size: 18px;
+  font-family: "Noto Sans", sans-serif;
+  width: 75%;
+  color: #666666;
+}
+
+.send-button {
+  background-color: #fff;
+  border: none;
+  outline: none;
+}
+
+.comment {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  color: #666666;
+  padding-left: 9.5em;
+  padding-right: 1em;
+}
+
+.profile-details {
+  margin: auto 0px;
+  color: #666666;
+}
